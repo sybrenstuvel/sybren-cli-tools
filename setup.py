@@ -23,7 +23,7 @@ setup(
     packages=['sybren_cli_tools'],
     license='Python',
     classifiers=[
-        'License :: OSI Approved :: Python License (CNRI Python License)',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
@@ -32,9 +32,11 @@ setup(
     ],
     install_requires=[
         'enzyme>=0.4.1',  # for mkvedit
+        'tabulate>=0.7.5',  # for mkvedit
     ],
     zip_safe=True,
     entry_points={'console_scripts': [
         'mkv-edit-deactivate-subtitles = sybren_cli_tools.mkvedit:deactivate_subtitles',
+        'mkv-track-info = sybren_cli_tools.mkvedit:track_info',
     ]},
 )

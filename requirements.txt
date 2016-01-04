@@ -1,0 +1,2 @@
+enzyme==0.4.1
+tabulate==0.7.5
