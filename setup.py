@@ -13,7 +13,7 @@ if sys.version_info[:2] < (3, 4):
 from setuptools import setup
 
 setup(
-    name='mkv-edit',
+    name='sybren-cli-tools',
     version=__version__,
     author='Sybren A. Stüvel',
     author_email='sybren@stuvel.eu',
