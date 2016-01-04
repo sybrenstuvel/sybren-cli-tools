@@ -1,0 +1,4 @@
+__pycache__/
+mkv_edit.egg-info/
+*.pyc
+.*.swp
